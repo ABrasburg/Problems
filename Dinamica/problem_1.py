@@ -32,7 +32,7 @@ def add_up_to_k(lst, obj):
     return False
 
 # Solo c on 2 numeros
-def find_pair_sum(numbers, k):
+def find_pair_sum(numbers, k): # Hashing
     seen = set()
     for num in numbers:
         complement = k - num
