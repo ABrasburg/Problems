@@ -5,13 +5,13 @@ Este repositorio contiene una colección de problemas de programación y estruct
 ## Estructura del Repositorio
 
 ### Problemas
-Los problemas están numerados y se encuentran en la raíz del repositorio. Cada archivo `problem_X.py` contiene la descripción del problema, su solución y ejemplos de uso. Algunos de los problemas destacados incluyen:
+Los problemas están organizados en carpetas según su categoría. Cada archivo `problem_X.py` contiene la descripción del problema, su solución y ejemplos de uso. Algunos de los problemas destacados incluyen:
 
-- **[problem_1.py](problem_1.py):** Verifica si dos números de una lista suman un valor objetivo.
-- **[problem_3.py](problem_3.py):** Serialización y deserialización de árboles binarios.
-- **[problem_7.py](problem_7.py):** Cuenta las formas de decodificar un mensaje numérico.
-- **[problem_9.py](problem_9.py):** Encuentra la suma más grande de números no adyacentes en una lista.
-- **[problem_14.py](problem_14.py):** Estimación de π utilizando el método de Monte Carlo.
+- **[Dinamica/problem_1.py](Dinamica/problem_1.py):** Verifica si dos números de una lista suman un valor objetivo.
+- **[Arboles/problem_3.py](Arboles/problem_3.py):** Serialización y deserialización de árboles binarios.
+- **[Dinamica/problem_7.py](Dinamica/problem_7.py):** Cuenta las formas de decodificar un mensaje numérico.
+- **[Dinamica/problem_9.py](Dinamica/problem_9.py):** Encuentra la suma más grande de números no adyacentes en una lista.
+- **[Randomizados/problem_14.py](Randomizados/problem_14.py):** Estimación de π utilizando el método de Monte Carlo.
 
 ### Estructuras de Datos
 En la carpeta `Estructuras/` se encuentran implementaciones de estructuras de datos avanzadas:
@@ -26,8 +26,20 @@ En la carpeta `Randomizados/` se encuentran algoritmos que utilizan técnicas de
 - **[quicksort.py](Randomizados/quicksort.py):** Implementación de QuickSort con selección de pivote mejorada.
 - **[random_mediana.py](Randomizados/random_mediana.py):** Selección de la mediana utilizando randomización.
 
+### Problemas de Concurrencia
+En la carpeta `Concurrencia/` se encuentran problemas relacionados con programación concurrente:
+
+- **[problem_10.py](Concurrencia/problem_10.py):** Implementación de un programador de tareas con retraso.
+
+### Problemas de Hashing
+En la carpeta `Hashing/` se encuentran problemas relacionados con técnicas de hashing:
+
+- **[problem_4.py](Hashing/problem_4.py):** Encuentra el primer entero positivo faltante en un arreglo.
+
+### Problemas de Leetcode
+En la carpeta `Leetcode/` se encuentran problemas organizados por dificultad:
+
+- **[Medium/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.py](Leetcode/Medium/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.py):** Utiliza un robot para imprimir la cadena lexicográficamente más pequeña.
+
 ## Ejecución
 Cada archivo es independiente y puede ejecutarse directamente con Python. Por ejemplo:
-
-```bash
-python problem_1.py
