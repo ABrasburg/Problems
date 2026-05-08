@@ -1,4 +1,4 @@
-from random_mediana import elegir_pivote_mejorado
+from random_median import elegir_pivote_mejorado
 
 def quicksort(S):
     if len(S) <= 1:
@@ -16,4 +16,3 @@ def quicksort(S):
         if len(menores) >= len(S)//4 and len(mayores) >= len(S)//4:
             buen_pivote = True
     return quicksort(menores) + [pivot] + quicksort(mayores)
-    

@@ -1,45 +1,54 @@
-# Problemas de Programación y Estructuras de Datos
+# Problemas de Programacion y Estructuras de Datos
 
-Este repositorio contiene una colección de problemas de programación y estructuras de datos implementados en Python. Cada archivo aborda un problema específico o implementa una estructura de datos, con soluciones optimizadas y explicaciones claras en los comentarios del código.
+Coleccion de ejercicios de programacion, soluciones de plataformas online,
+estructuras de datos e implementaciones de algoritmos.
 
-## Estructura del Repositorio
+## Estructura
 
-### Problemas
-Los problemas están organizados en carpetas según su categoría. Cada archivo `problem_X.py` contiene la descripción del problema, su solución y ejemplos de uso. Algunos de los problemas destacados incluyen:
+```text
+daily-coding-problem/
+  001_two_sum.py
+  002_product_array.py
+  ...
+  024_locking_binary_tree.py
 
-- **[Dinamica/problem_1.py](Dinamica/problem_1.py):** Verifica si dos números de una lista suman un valor objetivo.
-- **[Arboles/problem_3.py](Arboles/problem_3.py):** Serialización y deserialización de árboles binarios.
-- **[Dinamica/problem_7.py](Dinamica/problem_7.py):** Cuenta las formas de decodificar un mensaje numérico.
-- **[Dinamica/problem_9.py](Dinamica/problem_9.py):** Encuentra la suma más grande de números no adyacentes en una lista.
-- **[Randomizados/problem_14.py](Randomizados/problem_14.py):** Estimación de π utilizando el método de Monte Carlo.
+leetcode/
+  easy/
+    two-sum/
+      solution.py
+  medium/
+  hard/
 
-### Estructuras de Datos
-En la carpeta `Estructuras/` se encuentran implementaciones de estructuras de datos avanzadas:
+hackerrank/
+  sql/
+    easy/
 
-- **[arbol_binario_busqueda_aleatoria.py](Estructuras/arbol_binario_busqueda_aleatoria.py):** Árbol binario de búsqueda aleatoria.
-- **[skip_lists.py](Estructuras/skip_lists.py):** Implementación de listas skip.
-- **[treaps.py](Estructuras/treaps.py):** Árboles binarios balanceados con prioridades aleatorias (Treaps).
+data-structures/
+  randomized_binary_search_tree.py
+  skip_list.py
+  treap.py
 
-### Algoritmos Randomizados
-En la carpeta `Randomizados/` se encuentran algoritmos que utilizan técnicas de randomización:
+algorithms/
+  randomized/
+    quicksort.py
+    random_median.py
+```
 
-- **[quicksort.py](Randomizados/quicksort.py):** Implementación de QuickSort con selección de pivote mejorada.
-- **[random_mediana.py](Randomizados/random_mediana.py):** Selección de la mediana utilizando randomización.
+## Convenciones
 
-### Problemas de Concurrencia
-En la carpeta `Concurrencia/` se encuentran problemas relacionados con programación concurrente:
+- `daily-coding-problem/`: problemas numerados con formato `NNN_slug.py`.
+- `leetcode/`: problemas separados por dificultad. Cada problema vive en una carpeta propia y sus archivos se llaman `solution.<extension>`.
+- `hackerrank/`: ejercicios separados por dominio, dificultad y nombre del problema.
+- `data-structures/`: implementaciones reutilizables de estructuras de datos.
+- `algorithms/`: algoritmos sueltos agrupados por tecnica o familia.
 
-- **[problem_10.py](Concurrencia/problem_10.py):** Implementación de un programador de tareas con retraso.
+## Ejecucion
 
-### Problemas de Hashing
-En la carpeta `Hashing/` se encuentran problemas relacionados con técnicas de hashing:
+Los archivos de Python se pueden ejecutar directamente cuando incluyen casos de
+prueba o ejemplos:
 
-- **[problem_4.py](Hashing/problem_4.py):** Encuentra el primer entero positivo faltante en un arreglo.
-
-### Problemas de Leetcode
-En la carpeta `Leetcode/` se encuentran problemas organizados por dificultad:
-
-- **[Medium/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.py](Leetcode/Medium/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String/Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.py):** Utiliza un robot para imprimir la cadena lexicográficamente más pequeña.
-
-## Ejecución
-Cada archivo es independiente y puede ejecutarse directamente con Python. Por ejemplo:
+```bash
+python3 daily-coding-problem/024_locking_binary_tree.py
+python3 leetcode/easy/two-sum/solution.py
+python3 algorithms/randomized/quicksort.py
+```
