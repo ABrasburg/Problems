@@ -1,0 +1,25 @@
+README.md
+  s_2a281753f55071::t_74f898c14a36c4 54
+problems/strings-parsing/README.md
+  s_2a281753f55071::t_74f898c14a36c4 12
+problems/strings-parsing/025_regular_expression_matching.md
+  s_2a281753f55071::t_74f898c14a36c4 1-41
+problems/strings-parsing/025_regular_expression_matching.py
+  s_2a281753f55071::t_74f898c14a36c4 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "5db3f623c137ac16f66e606b70b90ca5b1eefb39",
+  "prompts": {},
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
