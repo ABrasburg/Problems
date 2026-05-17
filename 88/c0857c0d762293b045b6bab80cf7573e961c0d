@@ -1,0 +1,65 @@
+problems/dynamic-programming/009_max_non_adjacent_sum.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-22
+problems/strings-parsing/022_word_break.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/dynamic-programming/012_staircase.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/probability-randomized/014_estimate_pi.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-20
+problems/strings-parsing/011_autocomplete.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/arrays-hashing/004_first_missing_positive.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/arrays-hashing/016_order_log.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/strings-parsing/013_longest_substring_k_distinct.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/arrays-hashing/018_sliding_window_maximum.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/probability-randomized/015_reservoir_sampling.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-15
+problems/strings-parsing/017_longest_file_path.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-20
+problems/arrays-hashing/002_product_array.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-21
+problems/data-structures/020_linked_list_intersection.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/arrays-hashing/021_meeting_rooms.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/data-structures/006_xor_linked_list.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-15,19-24
+problems/strings-parsing/007_decode_ways.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-22
+problems/systems-concurrency/010_job_scheduler.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-18
+problems/arrays-hashing/001_two_sum.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-23
+problems/dynamic-programming/019_paint_house.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/trees-graphs/008_unival_tree_count.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/trees-graphs/023_shortest_path_grid.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-20
+problems/trees-graphs/024_locking_binary_tree.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-22
+problems/trees-graphs/003_serialize_deserialize_tree.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-19
+problems/data-structures/005_cons_car_cdr.md
+  s_2a281753f55071::t_7851c47ae2aebf 9-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "88c0857c0d762293b045b6bab80cf7573e961c0d",
+  "prompts": {},
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
