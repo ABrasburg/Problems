@@ -1,0 +1,95 @@
+problems/dynamic-programming/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-9
+problems/trees-graphs/003_serialize_deserialize_tree.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/strings-parsing/022_word_break.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/strings-parsing/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-11
+problems/arrays-hashing/README.md
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-12
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+problems/arrays-hashing/004_first_missing_positive.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/arrays-hashing/021_meeting_rooms.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/data-structures/020_linked_list_intersection.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/strings-parsing/007_decode_ways.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/dynamic-programming/019_paint_house.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/data-structures/005_cons_car_cdr.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/systems-concurrency/010_job_scheduler.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/probability-randomized/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-8
+problems/strings-parsing/011_autocomplete.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/arrays-hashing/018_sliding_window_maximum.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/probability-randomized/015_reservoir_sampling.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/strings-parsing/013_longest_substring_k_distinct.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/probability-randomized/014_estimate_pi.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/trees-graphs/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-10
+problems/systems-concurrency/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7
+problems/arrays-hashing/001_two_sum.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/dynamic-programming/009_max_non_adjacent_sum.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/dynamic-programming/012_staircase.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/data-structures/README.md
+  s_2a281753f55071::t_4536aa16e52d4c 1-4,6
+  s_2a281753f55071::t_41aafd6a9fd38d 5,7-9
+problems/arrays-hashing/002_product_array.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/data-structures/006_xor_linked_list.md
+  s_2a281753f55071::t_1b29119b0684d0 1-21
+problems/strings-parsing/017_longest_file_path.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/arrays-hashing/016_order_log.md
+  s_2a281753f55071::t_1b29119b0684d0 1-19
+problems/trees-graphs/023_shortest_path_grid.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+problems/trees-graphs/024_locking_binary_tree.md
+  s_2a281753f55071::t_1b29119b0684d0 1-19
+problems/trees-graphs/008_unival_tree_count.md
+  s_2a281753f55071::t_1b29119b0684d0 1-18
+README.md
+  s_2a281753f55071::t_41aafd6a9fd38d 30-53
+  s_2a281753f55071::t_e6a9834595a072 1,6-13,16-17
+  s_2a281753f55071::t_4536aa16e52d4c 18-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "596f54581b6d7d0e9b34d323f53769afd01339d3",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
