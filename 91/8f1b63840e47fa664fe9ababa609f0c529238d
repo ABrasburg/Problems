@@ -1,0 +1,32 @@
+problems/strings-parsing/027_balanced_brackets.py
+  s_2a281753f55071::t_dba4cf35aa45dc 1-6,23-28
+  h_4bc38961161fb7 7-22
+problems/strings-parsing/README.md
+  s_2a281753f55071::t_dba4cf35aa45dc 13
+README.md
+  s_2a281753f55071::t_dba4cf35aa45dc 56
+problems/strings-parsing/027_balanced_brackets.md
+  s_2a281753f55071::t_afc39fc9b3219d 17-52,58-62
+  s_2a281753f55071::t_dba4cf35aa45dc 1-16,53-57,63-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "918f1b63840e47fa664fe9ababa609f0c529238d",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
