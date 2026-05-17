@@ -6,7 +6,18 @@ Encontrar la cantidad minima de pasos entre dos celdas de una grilla con paredes
 
 ## Idea
 
-Como todos los movimientos tienen el mismo costo, BFS es el enfoque natural. Se exploran celdas por distancia creciente desde el inicio; la primera vez que se alcanza el destino, esa distancia es minima.
+Como cada movimiento cuesta lo mismo, BFS es el algoritmo adecuado: explora primero todas las celdas a distancia 1, luego distancia 2, y asi sucesivamente. Por eso, la primera vez que se alcanza el destino, esa distancia ya es minima.
+
+DFS puede encontrar un camino, pero no garantiza que sea el mas corto sin explorar combinaciones innecesarias.
+
+## Paso a paso
+
+- Iniciar una cola con `(start, 0)`.
+- Mantener un conjunto de celdas vistas.
+- Sacar una celda de la cola.
+- Si es el destino, devolver su distancia.
+- Agregar vecinos caminables no vistos con distancia `+ 1`.
+- Si la cola se vacia, no hay camino.
 
 ## Complejidad
 

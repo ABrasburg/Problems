@@ -6,7 +6,17 @@ Pintar una fila de casas minimizando costo, con la restriccion de que casas veci
 
 ## Idea
 
-Para cada casa y color, se suma el costo actual al minimo costo acumulado de la casa anterior usando un color distinto. La respuesta es el menor costo de la ultima fila.
+La decision de color de una casa depende solo de la casa anterior. Para cada color posible en la casa actual, se suma su costo al mejor costo anterior que use un color distinto.
+
+La version directa mira todos los colores anteriores para cada color actual. Una optimizacion guarda el menor y segundo menor costo de la fila anterior, para elegir rapido el mejor color permitido.
+
+## Paso a paso
+
+- Tomar la primera fila de costos como base.
+- Para cada casa siguiente, calcular el costo acumulado por color.
+- Si el color actual coincide con el color del minimo anterior, usar el segundo minimo.
+- Si no coincide, usar el minimo anterior.
+- Al final, tomar el menor costo de la ultima casa.
 
 ## Complejidad
 

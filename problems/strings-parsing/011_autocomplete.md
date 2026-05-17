@@ -6,7 +6,17 @@ Dado un prefijo y un conjunto de palabras, devolver las palabras que comienzan c
 
 ## Idea
 
-La version simple recorre todas las palabras y filtra por prefijo. Para escalar, el patron natural es un trie, que permite bajar por los caracteres del prefijo y listar solo el subarbol relevante.
+La solucion mas directa revisa todas las palabras y conserva las que empiezan con el prefijo. Es suficiente para listas chicas.
+
+Para un sistema real de autocompletado conviene un trie. Cada nodo representa un prefijo; buscar el prefijo cuesta recorrer sus caracteres, y luego se listan las palabras en el subarbol.
+
+## Paso a paso
+
+- Insertar cada palabra caracter por caracter en el trie.
+- Marcar los nodos donde termina una palabra.
+- Para consultar, avanzar por el trie siguiendo el prefijo.
+- Si el prefijo no existe, devolver lista vacia.
+- Si existe, recorrer desde ese nodo para recolectar completions.
 
 ## Complejidad
 

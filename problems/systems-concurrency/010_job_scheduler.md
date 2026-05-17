@@ -6,7 +6,16 @@ Implementar un scheduler que ejecute una funcion despues de una cantidad dada de
 
 ## Idea
 
-La solucion crea una tarea diferida: espera `n / 1000` segundos y luego invoca la funcion. Usar un hilo separado evita bloquear al llamador mientras pasa el tiempo.
+La parte importante es que programar el trabajo no deberia bloquear al llamador. Por eso la funcion diferida corre en otro hilo: ese hilo duerme el tiempo indicado y despues ejecuta el callback.
+
+Para una version productiva, tambien habria que manejar cancelacion, errores del callback y reutilizacion de threads, pero para el ejercicio alcanza con crear una tarea independiente.
+
+## Paso a paso
+
+- `delay(f, n)` recibe la funcion y milisegundos.
+- Crear una funcion interna que duerma `n / 1000` segundos.
+- Luego llamar a `f`.
+- Ejecutar esa funcion interna en un thread separado.
 
 ## Complejidad
 

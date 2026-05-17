@@ -6,7 +6,20 @@ Permitir bloquear y desbloquear nodos de un arbol binario solo si no hay ancestr
 
 ## Idea
 
-Cada nodo guarda si esta bloqueado y cuantos descendientes bloqueados tiene. Asi se puede detectar descendientes bloqueados en `O(1)` y revisar ancestros subiendo por punteros `parent`.
+La validacion requiere mirar dos direcciones:
+
+- no puede haber ancestros bloqueados;
+- no puede haber descendientes bloqueados.
+
+Revisar todos los descendientes en cada operacion seria caro. La optimizacion es guardar en cada nodo un contador de descendientes bloqueados. Asi, detectar si hay algun descendiente bloqueado cuesta `O(1)`.
+
+## Paso a paso
+
+- Cada nodo guarda `locked`, `parent` y `locked_descendants_count`.
+- Para bloquear o desbloquear, primero revisar si `locked_descendants_count > 0`.
+- Luego subir por `parent` para verificar que no haya ancestros bloqueados.
+- Al bloquear, marcar el nodo y sumar uno al contador de todos sus ancestros.
+- Al desbloquear, desmarcar el nodo y restar uno a esos contadores.
 
 ## Complejidad
 

@@ -6,7 +6,20 @@ Contar cuantas formas hay de decodificar un string numerico donde cada numero va
 
 ## Idea
 
-Cada posicion puede depender de una decodificacion de un digito o de dos digitos, siempre que formen valores validos. La solucion se modela con una recurrencia sobre prefijos del string.
+Cada caracter puede decodificarse solo si representa un numero valido, y a veces tambien puede combinarse con el caracter anterior para formar un valor entre 10 y 26.
+
+La recurrencia sobre prefijos suma dos posibilidades:
+
+- usar el ultimo digito solo;
+- usar los ultimos dos digitos juntos, si forman una letra valida.
+
+## Paso a paso
+
+- Definir una tabla donde `dp[i]` representa formas de decodificar el prefijo de largo `i`.
+- Inicializar el prefijo vacio con una forma.
+- Para cada posicion, sumar `dp[i - 1]` si el digito actual no es `0`.
+- Sumar `dp[i - 2]` si los dos ultimos digitos forman un numero entre 10 y 26.
+- El resultado queda en `dp[n]`.
 
 ## Complejidad
 

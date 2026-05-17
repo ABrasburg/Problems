@@ -6,7 +6,20 @@ Calcular la maxima suma posible eligiendo numeros del arreglo sin tomar elemento
 
 ## Idea
 
-En cada posicion hay dos opciones: tomar el numero actual y sumar la mejor solucion hasta dos posiciones atras, o no tomarlo y conservar la mejor solucion anterior.
+En cada numero hay una decision local con efecto sobre el siguiente: si se toma el valor actual, no se puede tomar el anterior; si no se toma, se conserva la mejor suma acumulada hasta ahora.
+
+La recurrencia es:
+
+`best[i] = max(best[i - 1], best[i - 2] + array[i])`
+
+No hace falta guardar toda la tabla; alcanza con los dos mejores estados previos.
+
+## Paso a paso
+
+- Mantener `incluyendo_actual` y `excluyendo_actual`, o equivalentes.
+- Al procesar un numero, calcular la mejor suma si se lo toma.
+- Compararla contra la mejor suma si se lo saltea.
+- Actualizar los dos acumuladores.
 
 ## Complejidad
 

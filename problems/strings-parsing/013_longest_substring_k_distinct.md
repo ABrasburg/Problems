@@ -6,7 +6,16 @@ Encontrar la longitud de la subcadena mas larga que contiene como maximo `k` car
 
 ## Idea
 
-Se usa una ventana deslizante con conteo de caracteres. El extremo derecho expande la ventana; cuando hay mas de `k` caracteres distintos, el extremo izquierdo avanza hasta restaurar la condicion.
+La ventana deslizante mantiene una subcadena valida mientras sea posible. Al expandir hacia la derecha, puede aparecer un nuevo caracter distinto. Si la ventana pasa a tener mas de `k` caracteres distintos, se contrae desde la izquierda.
+
+Para saber cuando un caracter deja de estar en la ventana, se mantiene un contador por caracter.
+
+## Paso a paso
+
+- Avanzar `right` por el string y sumar el caracter al contador.
+- Si la cantidad de caracteres distintos supera `k`, mover `left`.
+- Al mover `left`, decrementar el contador y borrar el caracter si llega a cero.
+- En cada estado valido, actualizar la longitud maxima.
 
 ## Complejidad
 
