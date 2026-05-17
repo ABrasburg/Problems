@@ -10,3 +10,4 @@ Strings, parsing, prefijos y expresiones.
 | 017 | [Longest File Path](017_longest_file_path.md) | [Python](017_longest_file_path.py) |
 | 022 | [Word Break](022_word_break.md) | [Python](022_word_break.py) |
 | 025 | [Regular Expression Matching](025_regular_expression_matching.md) | [Python](025_regular_expression_matching.py) |
+| 027 | [Balanced Brackets](027_balanced_brackets.md) | [Python](027_balanced_brackets.py) |
