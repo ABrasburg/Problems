@@ -1,0 +1,31 @@
+problems/strings-parsing/README.md
+  s_2a281753f55071::t_41933cd61912d0 14
+problems/strings-parsing/028_text_justification.md
+  s_2a281753f55071::t_41933cd61912d0 1-67
+problems/strings-parsing/028_text_justification.py
+  s_2a281753f55071::t_41933cd61912d0 1-22
+README.md
+  s_2a281753f55071::t_ef37cf8e4ed2a1 1,12,17-23,46-75
+  s_2a281753f55071::t_bedc73f05e524f 3-5,7-11,13-16,27-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "4a68f6f1558060703fd28eac9a9b525f166cd9f0",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
