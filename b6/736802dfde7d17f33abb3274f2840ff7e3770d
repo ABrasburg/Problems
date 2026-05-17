@@ -1,0 +1,33 @@
+problems/data-structures/README.md
+  s_2a281753f55071::t_75530e0d4d0d2b 10
+problems/data-structures/026_remove_kth_last_linked_list.md
+  s_2a281753f55071::t_75530e0d4d0d2b 1-6,8,10,12,14,17-19
+  s_2a281753f55071::t_c7e0d71ec55e86 7,9,11,13,15-16,20
+README.md
+  s_2a281753f55071::t_75530e0d4d0d2b 55
+problems/data-structures/026_remove_kth_last_linked_list.py
+  s_2a281753f55071::t_1635b9327151a8 40
+  s_2a281753f55071::t_75530e0d4d0d2b 1-28,33,42-50
+  h_4bc38961161fb7 29-32,34-39,41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "b6736802dfde7d17f33abb3274f2840ff7e3770d",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
