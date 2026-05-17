@@ -52,3 +52,4 @@ problems/
 | 023 | [Shortest Path Grid](problems/trees-graphs/023_shortest_path_grid.md) | Arboles y grafos |
 | 024 | [Locking Binary Tree](problems/trees-graphs/024_locking_binary_tree.md) | Arboles y grafos |
 | 025 | [Regular Expression Matching](problems/strings-parsing/025_regular_expression_matching.md) | Strings y parsing |
+| 026 | [Remove Kth Last Linked List Node](problems/data-structures/026_remove_kth_last_linked_list.md) | Estructuras de datos |
