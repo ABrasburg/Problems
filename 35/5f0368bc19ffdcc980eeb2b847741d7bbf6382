@@ -1,0 +1,14 @@
+problems/strings-parsing/028_text_justification.py
+  h_4bc38961161fb7 6-17,21-40,54-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "355f0368bc19ffdcc980eeb2b847741d7bbf6382",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
