@@ -1,0 +1,35 @@
+README.md
+  s_2a281753f55071::t_3db5515ed1fe45 30,75-76
+problems/strings-parsing/029_run_length_encoding.md
+  s_2a281753f55071::t_4155fe51d4c8a0 29-81
+  s_2a281753f55071::t_3db5515ed1fe45 1-8,11-25,28,82-84
+  s_2a281753f55071::t_753c7280b56c33 9-10,26-27
+problems/strings-parsing/029_run_length_encoding.py
+  s_2a281753f55071::t_3db5515ed1fe45 6-7,22-23,34-36,38-39
+  s_2a281753f55071::t_39e36cf20f5bdc 37
+  s_2a281753f55071::t_753c7280b56c33 1-5
+  h_4bc38961161fb7 8-21,24-33
+problems/strings-parsing/README.md
+  s_2a281753f55071::t_3db5515ed1fe45 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "32b9c8867d93fcc879a814f02c673642e214f953",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
