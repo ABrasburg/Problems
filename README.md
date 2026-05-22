@@ -27,7 +27,7 @@ razonamiento probabilistico.
 | Tema | Problemas | Enfoque |
 |---|---:|---|
 | [Arrays y hashing](problems/arrays-hashing/README.md) | 6 | Arreglos, hashing, ventanas e intervalos |
-| [Strings y parsing](problems/strings-parsing/README.md) | 8 | Strings, parsing, prefijos y expresiones |
+| [Strings y parsing](problems/strings-parsing/README.md) | 9 | Strings, parsing, prefijos y expresiones |
 | [Arboles y grafos](problems/trees-graphs/README.md) | 4 | Arboles, grafos, grillas y recorridos |
 | [Programacion dinamica](problems/dynamic-programming/README.md) | 3 | Recurrencias y optimizacion |
 | [Estructuras de datos](problems/data-structures/README.md) | 4 | Listas, pares y estructuras especificas |
@@ -72,4 +72,5 @@ razonamiento probabilistico.
 | 025 | [Regular Expression Matching](problems/strings-parsing/025_regular_expression_matching.md) | Strings y parsing | Resuelto |
 | 026 | [Remove Kth Last Linked List Node](problems/data-structures/026_remove_kth_last_linked_list.md) | Estructuras de datos | Resuelto |
 | 027 | [Balanced Brackets](problems/strings-parsing/027_balanced_brackets.md) | Strings y parsing | Resuelto |
-| 028 | [Text Justification](problems/strings-parsing/028_text_justification.md) | Strings y parsing | En progreso |
+| 028 | [Text Justification](problems/strings-parsing/028_text_justification.md) | Strings y parsing | Resuelto |
+| 029 | [Run-Length Encoding](problems/strings-parsing/029_run_length_encoding.md) | Strings y parsing | En progreso |

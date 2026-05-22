@@ -12,3 +12,4 @@ Strings, parsing, prefijos y expresiones.
 | 025 | [Regular Expression Matching](025_regular_expression_matching.md) | [Python](025_regular_expression_matching.py) |
 | 027 | [Balanced Brackets](027_balanced_brackets.md) | [Python](027_balanced_brackets.py) |
 | 028 | [Text Justification](028_text_justification.md) | [Python](028_text_justification.py) |
+| 029 | [Run-Length Encoding](029_run_length_encoding.md) | [Python](029_run_length_encoding.py) |
