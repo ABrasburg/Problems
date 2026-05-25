@@ -1,0 +1,33 @@
+problems/arrays-hashing/030_trapping_rain_water.md
+  s_2a281753f55071::t_f5d5ae7b9c5597 1-88
+problems/arrays-hashing/030_trapping_rain_water.py
+  h_4bc38961161fb7 8-9,11,15-16,18-32
+  s_2a281753f55071::t_f5d5ae7b9c5597 1-7,33-38
+  s_2a281753f55071::t_d857e97660a615 10,12-14,17
+README.md
+  s_2a281753f55071::t_f5d5ae7b9c5597 76
+  s_2a281753f55071::t_623a29802427e9 29,77
+problems/arrays-hashing/README.md
+  s_2a281753f55071::t_623a29802427e9 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "a62d8618b33c7a09c98b2021240d5075dd13ca65",
+  "prompts": {},
+  "humans": {
+    "h_4bc38961161fb7": {
+      "author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  },
+  "sessions": {
+    "s_2a281753f55071": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e35e5-ce61-7410-b685-182e657da013",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ABrasburg <abrasburg@fi.uba.ar>"
+    }
+  }
+}
