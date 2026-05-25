@@ -10,3 +10,4 @@ Arreglos, hashing, ventanas e intervalos.
 | 016 | [Order Log](016_order_log.md) | [Python](016_order_log.py) |
 | 018 | [Sliding Window Maximum](018_sliding_window_maximum.md) | [Python](018_sliding_window_maximum.py) |
 | 021 | [Meeting Rooms](021_meeting_rooms.md) | [Python](021_meeting_rooms.py) |
+| 030 | [Trapping Rain Water](030_trapping_rain_water.md) | [Python](030_trapping_rain_water.py) |
